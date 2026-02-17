@@ -1,0 +1,63 @@
+=== Exercise 4: Matrix Multiplication with OpenMP ===
+
+--- Scaling Analysis ---
+
+--- 1 thread(s) ---
+=== Matrix Multiplication with OpenMP ===
+Matrix A: 1024 x 1024
+Matrix B: 1024 x 1024
+Matrix C: 1024 x 1024
+Threads: 1
+
+Sequential time: 1.1157 s
+Parallel time (collapse): 1.0207 s
+Speedup: 1.09x
+Efficiency: 109.3%
+
+--- 2 thread(s) ---
+=== Matrix Multiplication with OpenMP ===
+Matrix A: 1024 x 1024
+Matrix B: 1024 x 1024
+Matrix C: 1024 x 1024
+Threads: 2
+
+Sequential time: 1.0369 s
+Parallel time (collapse): 0.5562 s
+Speedup: 1.86x
+Efficiency: 93.2%
+
+--- 4 thread(s) ---
+=== Matrix Multiplication with OpenMP ===
+Matrix A: 1024 x 1024
+Matrix B: 1024 x 1024
+Matrix C: 1024 x 1024
+Threads: 4
+
+Sequential time: 1.0788 s
+Parallel time (collapse): 0.3195 s
+Speedup: 3.38x
+Efficiency: 84.4%
+
+--- 8 thread(s) ---
+=== Matrix Multiplication with OpenMP ===
+Matrix A: 1024 x 1024
+Matrix B: 1024 x 1024
+Matrix C: 1024 x 1024
+Threads: 8
+
+Sequential time: 1.0435 s
+Parallel time (collapse): 0.3087 s
+Speedup: 3.38x
+Efficiency: 42.3%
+
+--- Scheduling Comparison (4 threads) ---
+=== Matrix Multiplication with OpenMP ===
+Matrix A: 1024 x 1024
+Matrix B: 1024 x 1024
+Matrix C: 1024 x 1024
+Threads: 4
+
+=== Scheduling Comparison (chunk=16) ===
+STATIC:  0.3343 s
+DYNAMIC: 0.3403 s
+GUIDED:  0.3404 s

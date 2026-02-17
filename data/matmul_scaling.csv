@@ -1,0 +1,5 @@
+threads,sequential,parallel_basic,parallel_collapse,speedup_basic,speedup_collapse,efficiency_basic,efficiency_collapse
+1,1.046,1.050,1.021,1.00,1.02,100.0,102.4
+2,1.037,0.540,0.533,1.92,1.94,96.0,97.2
+4,1.037,0.360,0.341,2.88,3.04,72.0,75.9
+8,1.038,0.310,0.286,3.35,3.63,41.9,45.3

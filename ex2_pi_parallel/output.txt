@@ -1,0 +1,78 @@
+=== Exercise 2: PI Calculation with Parallel Construct ===
+
+--- 1 thread(s) ---
+=== PI Calculation using OpenMP Parallel Construct ===
+Number of steps: 100000000
+
+Sequential:
+  PI = 3.141592653590426
+  Time = 0.090130 seconds
+
+Parallel (with 1 threads):
+  PI = 3.141592653590426
+  Time = 0.071018 seconds
+  Speedup = 1.27x
+  Efficiency = 126.9%
+
+Parallel with atomic (with 1 threads):
+  PI = 3.141592653590426
+  Time = 0.070452 seconds
+
+
+--- 2 thread(s) ---
+=== PI Calculation using OpenMP Parallel Construct ===
+Number of steps: 100000000
+
+Sequential:
+  PI = 3.141592653590426
+  Time = 0.070920 seconds
+
+Parallel (with 2 threads):
+  PI = 3.141592653590022
+  Time = 0.037778 seconds
+  Speedup = 1.88x
+  Efficiency = 93.9%
+
+Parallel with atomic (with 2 threads):
+  PI = 3.141592653590022
+  Time = 0.036506 seconds
+
+
+--- 4 thread(s) ---
+=== PI Calculation using OpenMP Parallel Construct ===
+Number of steps: 100000000
+
+Sequential:
+  PI = 3.141592653590426
+  Time = 0.071188 seconds
+
+Parallel (with 4 threads):
+  PI = 3.141592653590217
+  Time = 0.020909 seconds
+  Speedup = 3.40x
+  Efficiency = 85.1%
+
+Parallel with atomic (with 4 threads):
+  PI = 3.141592653590217
+  Time = 0.019700 seconds
+
+
+--- 8 thread(s) ---
+=== PI Calculation using OpenMP Parallel Construct ===
+Number of steps: 100000000
+
+Sequential:
+  PI = 3.141592653590426
+  Time = 0.073371 seconds
+
+Parallel (with 8 threads):
+  PI = 3.141592653589614
+  Time = 0.015862 seconds
+  Speedup = 4.63x
+  Efficiency = 57.8%
+
+Parallel with atomic (with 8 threads):
+  PI = 3.141592653589614
+  Time = 0.015750 seconds
+
+

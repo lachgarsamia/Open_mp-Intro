@@ -1,0 +1,13 @@
+chunk,schedule,time
+8,static,0.338
+8,dynamic,0.352
+8,guided,0.335
+16,static,0.326
+16,dynamic,0.339
+16,guided,0.323
+32,static,0.330
+32,dynamic,0.345
+32,guided,0.328
+64,static,0.332
+64,dynamic,0.348
+64,guided,0.330

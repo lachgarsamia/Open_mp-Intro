@@ -1,0 +1,66 @@
+=== Exercise 5: Jacobi Iterative Method with OpenMP ===
+
+--- 1 thread(s) ---
+=== Jacobi Method with OpenMP ===
+System size: 1000
+Diagonal dominance: 80
+Threads: 1
+
+Sequential:
+  Iterations: 1000
+  Time: 0.988418 sec
+
+Parallel:
+  Iterations: 1000
+  Time: 0.940460 sec
+  Speedup: 1.05x
+  Efficiency: 105.1%
+
+--- 2 thread(s) ---
+=== Jacobi Method with OpenMP ===
+System size: 1000
+Diagonal dominance: 80
+Threads: 2
+
+Sequential:
+  Iterations: 1000
+  Time: 0.982660 sec
+
+Parallel:
+  Iterations: 1000
+  Time: 0.526049 sec
+  Speedup: 1.87x
+  Efficiency: 93.4%
+
+--- 4 thread(s) ---
+=== Jacobi Method with OpenMP ===
+System size: 1000
+Diagonal dominance: 80
+Threads: 4
+
+Sequential:
+  Iterations: 1000
+  Time: 0.983361 sec
+
+Parallel:
+  Iterations: 1000
+  Time: 0.338668 sec
+  Speedup: 2.90x
+  Efficiency: 72.6%
+
+--- 8 thread(s) ---
+=== Jacobi Method with OpenMP ===
+System size: 1000
+Diagonal dominance: 80
+Threads: 8
+
+Sequential:
+  Iterations: 1000
+  Time: 0.967691 sec
+
+Parallel:
+  Iterations: 1000
+  Time: 0.293110 sec
+  Speedup: 3.30x
+  Efficiency: 41.3%
+

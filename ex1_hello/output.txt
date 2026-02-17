@@ -1,0 +1,29 @@
+=== Exercise 1: Hello OpenMP ===
+
+--- 1 thread(s) ---
+Hello from the rank 0 thread
+Parallel execution of hello_world with 1 threads
+
+--- 2 thread(s) ---
+Hello from the rank 0 thread
+Hello from the rank 1 thread
+Parallel execution of hello_world with 2 threads
+
+--- 4 thread(s) ---
+Hello from the rank 3 thread
+Hello from the rank 2 thread
+Hello from the rank 0 thread
+Hello from the rank 1 thread
+Parallel execution of hello_world with 4 threads
+
+--- 8 thread(s) ---
+Hello from the rank 0 thread
+Hello from the rank 2 thread
+Hello from the rank 7 thread
+Hello from the rank 6 thread
+Hello from the rank 3 thread
+Hello from the rank 5 thread
+Hello from the rank 4 thread
+Hello from the rank 1 thread
+Parallel execution of hello_world with 8 threads
+
