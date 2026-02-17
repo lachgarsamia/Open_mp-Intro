@@ -1,4 +1,6 @@
-# TP3 - OpenMP Introduction
+# Open_mp-Intro (TP3 - OpenMP Introduction)
+
+Introduction to OpenMP (Open Multi-Processing) through a set of hands-on exercises.
 
 **Author:** Implementation based on TP3 by Prof.Imad Kissami  
 **Date:** February 2026
